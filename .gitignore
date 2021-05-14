@@ -3,6 +3,7 @@
 
 # Object files
 *.o
+*.lo
 *.ko
 *.obj
 *.elf
@@ -50,3 +51,18 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+*
+!/**/
+
+#!*.*
+
+*.log
+*.deps
+*.dirstamp
+*.s
+*.trs
+*.status
+config.h
+*.pc
+
